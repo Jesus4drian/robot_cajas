@@ -1,0 +1,309 @@
+.caja1
+{
+background-color: aqua;
+/* para que se vean las cajas sin la necesidad que 
+tengan contenido dentro de los divs ,en con los 
+atributos width y heigh  */
+
+width: 220px; height: 180px;
+position:relative; /* posicion fija  */
+top: 100px;
+left: 200px;
+}
+.nariz
+{
+background-color: rgb(47, 61, 61);
+width: 40px; height: 40px;
+position: absolute; /* sobrepone antes cosas anteriormente */
+top: 100px;
+left: 90px;
+border-radius: 50px;
+}
+.boca1
+{
+background-color: rgb(47, 61, 61);
+width: 140px; height: 25px;
+position: absolute;   /* sobrepone antes cosas anteriormente */
+top: 140px;
+left: 50px;
+
+}
+.boca2
+{
+background-color: rgb(190, 204, 204);
+width: 120px; height: 15px;
+position: absolute;   /* sobrepone antes cosas anteriormente */
+top: 145px;
+left: 58px;
+
+}
+.oreja1
+{
+background-color: rgb(4, 140, 140);
+width: 60px; height: 60px;
+position: absolute; /* sobrepone antes cosas anteriormente */
+top: 80px;
+left: -60px;
+border-radius: 50px;
+}
+.oreja2
+{
+background-color: rgb(4, 140, 140);
+width: 60px; height: 60px;
+position: absolute; /* sobrepone antes cosas anteriormente */
+top: 80px;
+left: 220px;
+border-radius: 50px;
+}
+
+.antena1
+{
+background-color: rgb(0, 20, 119);
+width: 10px; height: 60px;
+position: absolute;   /* sobrepone antes cosas anteriormente */
+top: -60px;
+left: 100px;
+
+}
+.antena2
+{
+    background-color: rgb(13, 48, 222);
+width: 30px; height: 30px;
+position: absolute;   /* sobrepone antes cosas anteriormente */
+top: -80px;
+left: 90px;
+border-radius: 50px;
+}
+
+
+
+
+
+
+.caja2
+{
+background-color: rgb(47, 61, 61);
+width: 70px; height: 70px;
+position: absolute; /* sobrepone antes cosas anteriormente */
+top: 170px;
+left: 230px;
+}
+.caja3
+{
+background-color: rgb(27, 28, 27);
+width: 70px; height: 70px;
+position: absolute;
+top: 170px;
+left: 320px;
+
+}
+.caja2I
+{
+background-color: rgb(132, 169, 169);
+width: 40px; height: 40px;
+position: absolute; /* sobrepone antes cosas anteriormente */
+top: 190px;
+left: 250px;
+}
+.caja3I
+{
+    background-color: rgb(132, 169, 169);
+width: 40px; height: 40px;
+position: absolute;
+top: 190px;
+left: 340px;
+}
+
+
+
+.caja4
+{
+background-color: rgb(72, 135, 135);
+width: 50px; 
+height: 100px;
+position:  relative ;    /* respecto al top , la distancia es estre el
+PARA CJAS PADRES elemento anterior */
+top: 100px;
+left: 280px;
+
+}
+.caja5
+{
+background-color: rgb(18, 69, 77);
+width: 250px; height: 200px;
+position: relative ;  /* para cjas hijas */
+top: 100px;
+left: 180px;
+}
+.caja6-1
+{
+background-color: rgb(114, 235, 239);
+
+width: 200px; height: 50px;
+position: absolute;
+top: 20px;
+left: 25px;
+  
+}
+.caja6-2
+{
+background-color: rgb(114, 235, 239);
+
+width: 200px; height: 50px;
+position: absolute;
+top: 100px;
+left: 25px;
+  
+}
+.brazo
+{
+    background-color: rgb(18, 69, 77);
+
+width: 25px; height: 150px;
+position: absolute;
+transform: rotate(-60deg);
+top: 20px;
+left: -75px;
+border-radius: 10px;
+}
+.brazo2
+{
+background-color: rgb(63, 62, 62);
+
+width: 20px; height: 50px;
+position: absolute;
+transform: rotate(40deg);
+top: 15px;
+left: -110px;
+border-radius: 10px;
+}.brazo3
+{
+background-color: rgb(70, 70, 69);
+
+width: 20px; height: 50px;
+position: absolute;
+transform: rotate(-40deg);
+top: 15px;
+left: -150px;
+border-radius: 10px;
+}
+
+
+
+.brazoI
+{
+    background-color: rgb(18, 69, 77);
+
+width: 25px; height: 150px;
+position: absolute;
+transform: rotate(60deg);
+top: 20px;
+left: 300px;
+border-radius: 10px;
+}
+.brazo2I
+{
+background-color: rgb(83, 83, 83);
+
+width: 20px; height: 50px;
+position: absolute;
+transform: rotate(-40deg);
+top: 15px;
+left: 350px;
+border-radius: 10px;
+}.brazo3I
+{
+background-color: rgb(56, 56, 56);
+
+width: 20px; height: 50px;
+position: absolute;
+transform: rotate(40deg);
+top: 15px;
+left: 380px;
+border-radius: 10px;
+}
+
+
+
+
+
+
+.caja7
+{
+background-color: rgb(115, 163, 221);
+width: 120px; height: 40px;
+position: absolute;
+top: 1px;
+right: 120px;
+
+ 
+}
+.padre7
+{
+background-color: rgb(115, 163, 221);
+
+position:  relative;
+top: 100px;
+right: 1030px;
+
+ 
+}
+.caja8
+{
+
+
+position: relative;
+top: 100px;
+right: 300px;
+
+ 
+}
+.caja8-1
+{
+background-color: rgb(40, 58, 75);
+width: 300px; height: 150px;
+position: absolute ;
+top: 40px;
+right: 750px;
+
+ 
+}
+.caja8-2
+{
+background-color: rgb(226, 218, 218);
+width: 40px; height: 100px;
+position: absolute;
+top: 68px;
+right: 900px;
+
+}
+.caja8-3
+{
+background-color: rgb(226, 218, 218);
+width: 40px; height: 100px;
+position: absolute;
+top: 68px;
+right: 990px;
+
+}
+
+.caja8-4
+{
+background-color: rgb(226, 218, 218);
+width: 40px; height: 100px;
+position: absolute;
+top: 68px;
+right: 800px;
+
+}
+
+.caja9
+{
+background-color: rgb(255, 255, 255);
+width: 300px; height: 40px;
+position: absolute;
+top:900px;
+right: 300px;
+
+ 
+}
